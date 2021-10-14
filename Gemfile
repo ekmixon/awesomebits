@@ -6,7 +6,7 @@ gem 'rails', '5.2.4.6'
 gem 'rake', '< 13.0'
 gem 'bootsnap','>= 1.1.0', require: false
 
-gem 'puma'
+gem 'puma', '>= 4.3.9'
 gem 'pg', '~> 0.20.0'
 gem 'textacular', '~> 5.1.0'
 gem 'it'
