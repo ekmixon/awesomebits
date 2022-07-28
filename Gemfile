@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.5.5'
 
-gem 'rails', '5.2.4.6'
+gem 'rails', '5.2.8.1'
 gem 'rake', '< 13.0'
 gem 'bootsnap','>= 1.1.0', require: false
 
@@ -23,7 +23,7 @@ gem 'bourbon', '~> 4.0.2'
 gem 'simple_form', '~> 4.1'
 gem 'nokogiri', '~> 1.11.4'
 gem "will_paginate", "~> 3.1.7"
-gem "friendly_id", "~> 5.2.4"
+gem "friendly_id", "~> 5.2.5"
 gem 'redcarpet'
 gem 'honeypot-captcha'
 gem 'sucker_punch', '~> 1.0'
