@@ -20,7 +20,7 @@ gem 'fog-aws', '~> 2.0.1'
 gem 'formtastic'
 gem 'flutie'
 gem 'bourbon', '~> 4.0.2'
-gem 'simple_form', '~> 4.1'
+gem 'simple_form', '~> 4.1', '>= 4.1.0'
 gem 'nokogiri', '~> 1.11.4'
 gem "will_paginate", "~> 3.1.7"
 gem "friendly_id", "~> 5.2.4"
@@ -33,7 +33,7 @@ gem 'rack-attack'
 gem 'rack-cors'
 gem 'rack-ssl-enforcer'
 gem 'rollbar'
-gem 'sassc-rails', '~> 2.1'
+gem 'sassc-rails', '~> 2.1', '>= 2.1.1'
 gem 'coffee-rails'
 gem 'uglifier'
 gem 'react-rails'
@@ -58,7 +58,7 @@ end
 group :test do
   gem "turnip"
   gem "capybara", "~> 2.18.0"
-  gem "capybara-screenshot", "~> 1.0.11"
+  gem "capybara-screenshot", "~> 1.0.22"
   gem "webdrivers"
   gem "database_cleaner"
   gem "factory_girl_rails"
