@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.5.5'
 
-gem 'rails', '5.2.4.6'
+gem 'rails', '7.0.0'
 gem 'rake', '< 13.0'
 gem 'bootsnap','>= 1.1.0', require: false
 
@@ -11,8 +11,8 @@ gem 'pg', '~> 0.20.0'
 gem 'textacular', '~> 5.1.0'
 gem 'it'
 gem 'jquery-rails', '~> 4.1.1'
-gem 'jquery-ui-rails', '~> 3.0.1'
-gem 'clearance', '~> 1.13.0'
+gem 'jquery-ui-rails', '~> 4.0.5'
+gem 'clearance', '~> 1.16.2'
 gem 'clearance-deprecated_password_strategies'
 gem 'high_voltage', '~> 1'
 gem 'paperclip', '~> 4.1.1'
@@ -21,7 +21,7 @@ gem 'formtastic'
 gem 'flutie'
 gem 'bourbon', '~> 4.0.2'
 gem 'simple_form', '~> 4.1'
-gem 'nokogiri', '~> 1.11.4'
+gem 'nokogiri', '~> 1.18.3'
 gem "will_paginate", "~> 3.1.7"
 gem "friendly_id", "~> 5.2.4"
 gem 'redcarpet'
