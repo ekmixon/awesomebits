@@ -47,7 +47,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "rspec-rails", "~> 3.6.1"
+  gem "rspec-rails", "~> 8.0.0"
   gem "byebug"
   gem "sham_rack"
   gem "pry"
