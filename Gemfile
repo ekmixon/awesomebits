@@ -2,28 +2,28 @@ source 'https://rubygems.org'
 
 ruby '2.5.5'
 
-gem 'rails', '5.2.4.6'
+gem 'rails', '7.1.5.2'
 gem 'rake', '< 13.0'
 gem 'bootsnap','>= 1.1.0', require: false
 
 gem 'puma'
 gem 'pg', '~> 0.20.0'
-gem 'textacular', '~> 5.1.0'
-gem 'it'
+gem 'textacular', '~> 5.6.0'
+gem 'it', '>= 2.0.0'
 gem 'jquery-rails', '~> 4.1.1'
 gem 'jquery-ui-rails', '~> 3.0.1'
-gem 'clearance', '~> 1.13.0'
+gem 'clearance', '~> 1.14.0'
 gem 'clearance-deprecated_password_strategies'
 gem 'high_voltage', '~> 1'
-gem 'paperclip', '~> 4.1.1'
+gem 'paperclip', '~> 4.2.0'
 gem 'fog-aws', '~> 2.0.1'
-gem 'formtastic'
+gem 'formtastic', '>= 2.2.1'
 gem 'flutie'
 gem 'bourbon', '~> 4.0.2'
-gem 'simple_form', '~> 4.1'
+gem 'simple_form', '~> 5.0', '>= 5.0.0'
 gem 'nokogiri', '~> 1.11.4'
 gem "will_paginate", "~> 3.1.7"
-gem "friendly_id", "~> 5.2.4"
+gem "friendly_id", "~> 5.3.0"
 gem 'redcarpet'
 gem 'honeypot-captcha'
 gem 'sucker_punch', '~> 1.0'
@@ -33,7 +33,7 @@ gem 'rack-attack'
 gem 'rack-cors'
 gem 'rack-ssl-enforcer'
 gem 'rollbar'
-gem 'sassc-rails', '~> 2.1'
+gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
 gem 'coffee-rails'
 gem 'uglifier'
 gem 'react-rails'
@@ -43,11 +43,11 @@ gem 'jbuilder'
 group :development do
   gem "letter_opener"
   gem "listen"
-  gem 'web-console'
+  gem 'web-console', '>= 4.0.0'
 end
 
 group :development, :test do
-  gem "rspec-rails", "~> 3.6.1"
+  gem "rspec-rails", "~> 3.7.0"
   gem "byebug"
   gem "sham_rack"
   gem "pry"
@@ -65,7 +65,7 @@ group :test do
   gem "faker"
   gem "bourne"
   gem "timecop"
-  gem "rails-controller-testing"
+  gem "rails-controller-testing", ">= 1.0.5"
   gem "selenium-webdriver"
   gem "shoulda-matchers"
   gem "launchy"
